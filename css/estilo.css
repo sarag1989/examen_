@@ -1,0 +1,87 @@
+/* Entregar el fichero css final sin ningun fichero innecesario. en la carpeta img hay muchas fotos innecesarias.*/
+/* El reset que no sea cutre por favor.*/
+
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body{
+    font-family: 'Merienda', cursive;
+    background-image: url(../img/verde.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.forms{
+    width: 100%;
+    max-width: 680px;
+    margin: 100px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 25px #188f53;
+    border-radius: 20px;
+    background-color:#cfecd6;
+}
+
+.content{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.content h1{
+    letter-spacing: 3px;
+}
+
+.form-group1, .form-group2, .form-group3, .form-group4{
+    width: 100%;
+    min-height: 70px;
+}
+
+label{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+input[type="text"], [type="email"], [type="number"]{
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid rgb(215, 243, 148);
+    border-radius: 20px;
+}
+
+input:focus{
+    border-color: #188f53;
+}
+
+input[type="submit"]{
+    background: #188f53;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 0;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.bien {
+    background: rgb(186, 248, 186);
+    /* display: none; */
+}
+
+.mal{
+    background:rgb(241, 164, 164);
+    /* display: inline; */
+}
